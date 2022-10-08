@@ -138,10 +138,10 @@ fun SwipeToRefreshDemo() {
             }
 
 
-            // 2 sec delay
+            // 3 sec delay
             LaunchedEffect(isRefreshing) {
                 if (isRefreshing) {
-                    delay(2000L)
+                    delay(3000L)
                     isRefreshing = false
                 }
             }
